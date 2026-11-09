@@ -1,0 +1,97 @@
+# ==============================================================================
+# Security & Sensitive Credentials / API Keys
+# ==============================================================================
+.env
+.env.*
+*.env
+*.token
+*token*
+*secret*
+*credential*
+credentials.json
+client_secret*.json
+HF_TOKEN
+*.pem
+*.key
+*.crt
+*.pfx
+secrets/
+private/
+
+# ==============================================================================
+# Python & Virtual Environments
+# ==============================================================================
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==============================================================================
+# Jupyter Notebooks
+# ==============================================================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*-checkpoint.ipynb
+
+# ==============================================================================
+# Large Audio Datasets & Raw Media
+# ==============================================================================
+data/raw/
+data/processed_clean/FAKE/
+data/processed_clean/Real_audio/
+*.flac
+*.m4a
+*.mp3
+*.aac
+*.ogg
+
+# ==============================================================================
+# Large Trained Model Weights (Use Git LFS if committing model checkpoints)
+# ==============================================================================
+models/*.pth
+models/*.pt
+models/*.bin
+models/*.safetensors
+*.onnx
+
+# ==============================================================================
+# Logs & System Files
+# ==============================================================================
+*.log
+logs/*.log
+py_backup/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================================================================
+# IDE & Editors
+# ==============================================================================
+.idea/
+.vscode/*
+!.vscode/settings.json
+*.sublime-project
+*.sublime-workspace
+
