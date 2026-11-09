@@ -1,0 +1,55 @@
+{
+  "Fake": {
+    "total_files": 25436,
+    "valid_audio_files": 25436,
+    "corrupted_or_unsupported": 0,
+    "extensions": {
+      ".wav": 56,
+      ".flac": 25380
+    },
+    "sample_rates": {
+      "44100": 52,
+      "40000": 4,
+      "16000": 25380
+    },
+    "channel_configurations": {
+      "stereo": 56,
+      "mono": 25380
+    },
+    "duration_statistics": {
+      "count": 25436,
+      "min_duration_sec": 0.6524375,
+      "max_duration_sec": 600.0,
+      "mean_duration_sec": 4.448504598375756,
+      "median_duration_sec": 3.2089687500000004,
+      "std_duration_sec": 24.144774721439006
+    }
+  },
+  "Real": {
+    "total_files": 32406,
+    "valid_audio_files": 31405,
+    "corrupted_or_unsupported": 1001,
+    "extensions": {
+      ".wav": 8,
+      ".m4a": 1001,
+      ".flac": 31397
+    },
+    "sample_rates": {
+      "48000": 3,
+      "44100": 5,
+      "16000": 31397
+    },
+    "channel_configurations": {
+      "stereo": 8,
+      "mono": 31397
+    },
+    "duration_statistics": {
+      "count": 31405,
+      "min_duration_sec": 1.4569375,
+      "max_duration_sec": 600.4493541666667,
+      "mean_duration_sec": 4.181562193628446,
+      "median_duration_sec": 4.0079375,
+      "std_duration_sec": 8.26269400796748
+    }
+  }
+}

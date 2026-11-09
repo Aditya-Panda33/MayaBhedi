@@ -56,9 +56,10 @@ wheels/
 *-checkpoint.ipynb
 
 # ==============================================================================
-# Large Audio Datasets & Raw Media
+# Large Audio Datasets & Raw / Processed Media
 # ==============================================================================
 data/raw/
+data/processed/
 data/processed_clean/FAKE/
 data/processed_clean/Real_audio/
 *.flac
@@ -66,6 +67,7 @@ data/processed_clean/Real_audio/
 *.mp3
 *.aac
 *.ogg
+*.wav
 
 # ==============================================================================
 # Large Trained Model Weights (Use Git LFS if committing model checkpoints)
